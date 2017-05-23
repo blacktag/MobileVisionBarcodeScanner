@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="xyz.belvi.mobilevisionbarcodescanner">
+    package="xyz.blacktag.mobilevisionbarcodescanner">
 
     <uses-permission android:name="android.permission.CAMERA" />
 

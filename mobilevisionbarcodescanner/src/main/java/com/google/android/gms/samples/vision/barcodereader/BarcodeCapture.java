@@ -51,7 +51,8 @@ import java.util.ArrayList;
 
 import io.reactivex.functions.Consumer;
 import xyz.belvi.mobilevisionbarcodescanner.BarcodeFragment;
-import xyz.belvi.mobilevisionbarcodescanner.R;
+//import xyz.belvi.mobilevisionbarcodescanner.R;
+import xyz.blacktag.mobilevisionbarcodescanner.R;
 
 /**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the

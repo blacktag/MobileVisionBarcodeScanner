@@ -8,6 +8,8 @@ import android.util.AttributeSet;
 
 import java.util.ArrayList;
 
+import xyz.blacktag.mobilevisionbarcodescanner.R;
+
 /**
  * Created by zone2 on 10/11/16.
  */
@@ -24,6 +26,7 @@ abstract public class BarcodeFragment extends Fragment {
     public void onInflate(Context context, AttributeSet attrs, Bundle savedInstanceState) {
         super.onInflate(context, attrs, savedInstanceState);
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.gvb);
+
         showFlash = a.getBoolean(R.styleable.gvb_gvb_flash, false);
         showDrawRect = a.getBoolean(R.styleable.gvb_gvb_draw, false);
         shouldShowText = a.getBoolean(R.styleable.gvb_gvb_show_text, false);
